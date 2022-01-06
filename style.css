@@ -65,7 +65,9 @@ p{
 }
 
 /* 1st section */
-
+.section{
+    margin-top: 10px;
+}
 #motoLeftBorder{
     background:#FF5959;
     height: 100%;
@@ -80,7 +82,7 @@ p{
     overflow: hidden;
     position: relative;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 45px;
     margin-bottom: 15px;
 }
 #moto-h1{
@@ -94,5 +96,9 @@ p{
 }
 
 #imageContainer{
-    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 425px;
+    width: 425px;
 }
