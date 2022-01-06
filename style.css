@@ -169,24 +169,55 @@ p{
 #section-3{
     margin-top: 80px;
 }
-#section-3-image{
+.section-3-and-4-image{
     height: 400px;
     width: 400px;
     overflow: hidden;
 }
-#section-3-image img{
+.section-3-and-4-image img{
     height: 100%;
     width: 100%;
 }
 
-#section-3-moto{
+.section-3-and-4-moto{
     margin-top: 25px;
     padding: 20px;
 }
 
-#section-3-moto h1{
+.section-3-and-4-moto h1{
     font-weight: bold;
     font-size: 36px;
     line-height: 46px;
     padding-bottom: 10px;
 }
+
+/* section-4 */
+#section-4{
+    margin-top: 80px;
+}
+
+/* section 5 */
+
+
+
+
+/* footer part */
+#footer{
+    margin-top: 80px;
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer-h1{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    line-height: 45px;
+    padding-bottom: 10px;
+}
+
+#footer-h1 span{
+    color: rgb(235, 108, 108);
+}
+
