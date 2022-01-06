@@ -65,7 +65,7 @@ p{
 }
 
 /* 1st section */
-.section{
+#section-1{
     margin-top: 10px;
 }
 #motoLeftBorder{
@@ -101,4 +101,65 @@ p{
     justify-items: center;
     height: 425px;
     width: 425px;
+}
+
+
+/* section 2 */
+#section-2{
+    margin-top: 100px;
+}
+#section-2-header{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+#section-2-header > span{
+    color: #FFAD5A;
+}
+
+#missionCardSection{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#missionCard-1{
+    height: 360px;
+    width: 360px;
+    background: #EDF5F6;
+    border-radius: 10px;
+    padding: 25px;
+}
+#missionCard-2{
+    height: 360px;
+    width: 360px;
+    background: #FFEEEE;
+    border-radius: 10px;
+    padding: 25px;
+}
+#missionCard-3{
+    height: 360px;
+    width: 360px;
+    background: #FFF4D6;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.missionCardImage{
+    height: 40%;
+    width: 100%;
+    overflow: hidden;
+}
+.missionCardImage > img{
+    height: 110px;
+}
+
+.missionCardBottom{
+    height: 60%;
+    width: 100%;
+}
+
+.missionCardBottom h2{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 20px;
 }
